@@ -1,0 +1,9 @@
+<div class="card-container">
+<div class="card" *ngFor="let item of vm.userData" (click)="getUserDetails(item)">
+    <div class="container">
+        <h4><b>{{item.username}}</b></h4>
+        <h4><b>{{item.email}}</b></h4>
+        <h4><b>{{item.website}}</b></h4>
+    </div>
+</div>
+</div>

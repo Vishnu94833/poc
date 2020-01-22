@@ -1,0 +1,23 @@
+<div class="user-detail-container">
+    <div class="card">
+        <div class="container">
+            <h4><b>Name</b> : {{userData.name}}</h4>
+            <h4><b>User Name</b> : {{userData.username}}</h4>
+            <h4><b>Email</b> : {{userData.email}}</h4>
+            <h4><b>Address </b> : {{userData.address.suite}},
+                {{userData.address.street}},
+                {{userData.address.city}},
+                {{userData.address.zipcode}}</h4>
+            <h4><b>Phone No</b> : {{userData.phone}}</h4>
+            <h4><b>Website</b> : {{userData.website}}</h4>
+            <h4><b>Company</b> : <pre>
+                {{userData.company.name}} ,
+                {{userData.company.catchPhrase}} ,
+                {{userData.company.bs}}
+            </pre></h4>
+            
+
+                <button (click)="getPosts(userData.id)">see my posts</button>
+        </div>
+    </div>
+</div>

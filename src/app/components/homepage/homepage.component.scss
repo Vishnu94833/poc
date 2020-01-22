@@ -1,0 +1,23 @@
+.navbar-container{
+    width: 100%;
+    height: 50px;
+    background: #2b2f30;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    .navbar-title{
+        font-size: 32px;
+        font-weight: bolder;
+        color: white;
+    }
+
+    .new-user-btn{
+        height: 35px;
+        background: #cac8c8;
+        outline: none;
+        border: none;
+        border-radius: 5px;
+        color: #000000;
+    }
+}
